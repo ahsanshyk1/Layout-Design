@@ -1,0 +1,501 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Titillium Web';
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1042px;
+    margin: 0 auto;
+}
+
+
+/* Nav+logo */
+
+.header {
+    background: #87509c;
+}
+
+ul li {
+    display: inline-block;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 7px 20px;
+    font-weight: 600;
+}
+
+#logo-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.nav a:hover {
+    border: 1px solid #643a79;
+    background: #643a79;
+    border-radius: 5px;
+    transition: 0.6s ease;
+    color: #17c2a4;
+}
+
+
+/* banner and content */
+
+.banner {
+    background: #87509c;
+    height: 400px;
+}
+
+.content-banner {
+    text-align: center;
+}
+
+.content-banner p {
+    padding-top: 130px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.content-banner button {
+    color: white;
+    background: #eb7d4b;
+    border: none;
+    padding: 10px 50px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+
+/* Thumb section */
+
+.thumb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.top-content {
+    text-align: center;
+    color: white;
+}
+
+.top-content p {
+    margin: 45px 0px;
+}
+
+.services {
+    background: #17c2a4;
+    padding: 80px 0px;
+}
+
+.boxes {
+    flex-basis: 18%;
+}
+
+.services {
+    padding: 30px 0px;
+}
+
+.services hr {
+    height: 3px;
+    border: none;
+    background: #14a58c;
+    width: 77px;
+    margin: 10px auto;
+}
+
+.boxes h3 {
+    margin: 25px 0px;
+}
+
+
+/* About Team */
+
+.members {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.team-top {
+    text-align: center;
+}
+
+.team-top p {
+    margin: 50px 0px;
+    color: black;
+}
+
+.top-contact p {
+    color: black;
+}
+
+.team-top h1 {
+    color: #3c4761;
+}
+
+.team {
+    padding: 70px 0px;
+    background: #e7f1f8;
+}
+
+.boxes1 {
+    flex-basis: 23%;
+}
+
+.boxes1 p {
+    color: black;
+}
+
+.boxes1 h3 {
+    margin: 15px 0px;
+    color: #79d0ee;
+}
+
+.boxes1 h2 {
+    margin-top: 20px;
+}
+
+.boxes1 :nth-child(5) {
+    margin-top: 15px;
+}
+
+.team-top hr {
+    height: 3px;
+    border: none;
+    background: #c8d9e5;
+    width: 77px;
+    margin: 10px auto;
+}
+
+
+/* Skills */
+
+.top-skills {
+    text-align: center;
+}
+
+.top-contact h1,
+p {
+    color: black;
+}
+
+.top-skills hr {
+    height: 3px;
+    border: none;
+    background: #c8d9e5;
+    width: 77px;
+    margin: 10px auto;
+}
+
+.bottom-skills {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.top-skills p {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.skills {
+    padding: 50px 0px;
+}
+
+
+/* Portfolio */
+
+.bottom-port {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.portfolio {
+    background: #ffdd99;
+}
+
+.top-port,
+hr {
+    text-align: center;
+}
+
+.top-port hr {
+    height: 3px;
+    border: none;
+    background: #e5c37f;
+    width: 77px;
+    margin: 10px auto;
+}
+
+.left-port,
+.right-port {
+    padding: 20px 10px;
+}
+
+.top-port p {
+    margin: 50px 0px;
+    color: black;
+    font-weight: 600;
+}
+
+.top-port a {
+    background: #ebc985;
+    color: black;
+    border-radius: 5px;
+}
+
+.bottom-port img {
+    margin-top: 55px;
+}
+
+.top-port a:hover {
+    color: black;
+    background: white;
+    transition: 0.8s ease;
+}
+
+.portfolio {
+    padding: 40px 0px;
+}
+
+.portfolio-icons {
+    text-align: center;
+}
+
+.portfolio button {
+    padding: 10px 30px;
+    border: none;
+    background: #17c2a4;
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.left-about {
+    display: flex;
+}
+
+.right-about {
+    display: flex;
+}
+
+.bottom-say {
+    display: flex;
+    justify-content: space-between;
+}
+
+.people {
+    background: #d74680;
+}
+
+.top-say {
+    text-align: center;
+}
+
+.top-say h1,
+p {
+    color: white;
+}
+
+.top-say hr {
+    height: 3px;
+    border: none;
+    background: #b73c6d;
+    width: 77px;
+    margin: 10px auto;
+}
+
+.left-about,
+.right-about {
+    margin-top: 80px;
+}
+
+.left-about :nth-child(1),
+.right-about :nth-child(1) {
+    margin-right: 7px;
+    margin-bottom: 15px;
+}
+
+.people {
+    padding: 50px 0px;
+}
+
+.left-about :nth-child(2),
+.right-about :nth-child(2) {
+    margin-top: 14px;
+}
+
+.left-about {
+    color: white;
+}
+
+.right-about {
+    color: white;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-2 input {
+    width: 500px;
+    padding: 20px 7px;
+    background: #273a71;
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.message textarea {
+    width: 100%;
+    background: #273a71;
+    border: none;
+    border-radius: 3px;
+}
+
+.contact {
+    background: #3c5499;
+    height: auto;
+    border: none;
+    padding: 45px 0px;
+}
+
+.form button {
+    background: #30bae7;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+}
+
+.message textarea {
+    margin: 60px 0px;
+    color: white;
+}
+
+.top-contact {
+    text-align: center;
+}
+
+.top-contact hr {
+    height: 3px;
+    border: none;
+    background: #283b73;
+    width: 77px;
+    margin: 10px auto;
+}
+
+.top-contact p {
+    margin: 40px 0px;
+    color: white;
+}
+
+.top-contact h1 {
+    color: white;
+}
+
+.top-contact button {
+    background: #30bae7;
+    color: white;
+    border: none;
+    padding: 14px 55px;
+    border-radius: 4px;
+}
+
+.section-2 ::placeholder {
+    color: white;
+}
+
+.message ::placeholder {
+    color: white;
+}
+
+
+/* Footer */
+
+.footer {
+    background: #344b8e;
+    text-align: center;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-part ul li a {
+    font-size: 23px;
+}
+
+.footer-part ul li a:hover {
+    color: #30b1df;
+    transition: 0.7s ease;
+}
+
+
+/* Media Queries */
+
+
+/*  For Mobile phones*/
+
+@media (min-width:240px) and (max-width:512px) {
+    #logo-nav {
+        flex-direction: column;
+    }
+    a {
+        padding: 5px 9px;
+    }
+    .thumb {
+        flex-direction: column;
+    }
+    .members {
+        flex-direction: column;
+    }
+    .bottom-skills {
+        flex-direction: column;
+    }
+    .bottom-port img {
+        width: 320px;
+    }
+    .bottom-port {
+        flex-direction: column;
+    }
+    .bottom-say {
+        flex-direction: column;
+    }
+    .section-2 {
+        flex-direction: column;
+    }
+    .section-2 input {
+        width: 300px;
+    }
+    .message textarea {
+        width: 311px;
+    }
+    .footer-part ul li a {
+        font-size: 11px;
+        padding: 0px 5px;
+    }
+    .nav {
+        margin-top: 15px;
+    }
+    .thumb p {
+        margin-bottom: 15px;
+    }
+}
