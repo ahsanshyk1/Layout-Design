@@ -1,0 +1,224 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Tahoma;
+}
+
+.banner-image {
+    background: url(./banner.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-image h1 {
+    color: white;
+    font-size: 50px;
+    display: inline-block;
+    padding: 20px 20px;
+    background: #feb614;
+    margin-top: 215px;
+    letter-spacing: 3px;
+}
+
+.clearfix {
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0px auto;
+}
+
+header {
+    background-color: #f63232;
+    /* position: fixed;
+width: 100%; */
+}
+
+.header {
+    height: 75px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.header h2 {
+    border: 5px solid white;
+    display: inline-block;
+    color: white;
+    border-radius: 25px;
+    padding: 5px 15px;
+}
+
+.banner-image img {
+    max-width: 100%;
+    margin-bottom: -3px;
+}
+
+.navbar {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 10px 53px;
+    box-sizing: border-box;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.below-nav h2 {
+    color: #f63232;
+    font-size: 35px;
+    margin-top: 60px;
+}
+
+.below-nav p {
+    line-height: 28px;
+    margin-top: 15px;
+}
+
+.thumb {
+    max-width: 50%;
+    float: left;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    box-sizing: border-box;
+    padding: 0px 20px;
+}
+
+.thumb img {
+    width: 380px;
+}
+
+.testimonial {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding-top: 30px;
+    box-sizing: border-box;
+    height: 230px;
+}
+
+.testimonial h1 {
+    color: #4b4b4b;
+    margin-bottom: 15px;
+}
+
+.testimonial input {
+    border-radius: 20px;
+    padding: 11px 20px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 30px;
+    border: none;
+}
+
+footer {
+    background-color: #f63232;
+    height: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 25px;
+    color: white;
+}
+
+.nav-color ul li a:hover {
+    color: #f63232;
+    transition: 0.5s ease;
+}
+
+.thumb img:hover {
+    margin-top: 10px;
+    transition: 0.8s ea;
+}
+
+
+/* Media Queries */
+
+
+/* For old mobile and smaller display size, all the problems regarding small screen will be resolve after applying this query */
+
+@media (min-width:240px) and (max-width:512px) {
+    .navbar ul li {
+        width: 100%;
+    }
+    .below-nav {
+        text-align: center;
+    }
+    .below-nav p {
+        text-align: center;
+        width: 100%;
+    }
+    .thumb {
+        max-width: 100%;
+        float: none;
+        padding: 0px;
+    }
+    .thumb img {
+        width: 100%;
+    }
+    .testimonial {
+        height: auto;
+        box-sizing: border-box;
+        padding-bottom: 10px;
+    }
+    .testimonial input {
+        margin-bottom: 25px;
+    }
+    .testimonial p {
+        width: 100%;
+        padding: 10px 10px;
+        box-sizing: border-box;
+    }
+    .testimonial h1 {
+        font-size: 25px;
+    }
+}
+
+@media (min-width:513px) and (max-width:900px) {
+    .navbar ul li {
+        width: 100%;
+    }
+    .below-nav {
+        text-align: center;
+    }
+    .below-nav p {
+        text-align: center;
+        width: 100%;
+    }
+    .thumb {
+        max-width: 100%;
+        float: none;
+        padding: 0px;
+    }
+    .thumb img {
+        width: 100%;
+    }
+    .testimonial {
+        height: auto;
+        box-sizing: border-box;
+        padding-bottom: 10px;
+    }
+    .testimonial input {
+        margin-bottom: 25px;
+    }
+    .testimonial p {
+        width: 100%;
+        padding: 10px 10px;
+        box-sizing: border-box;
+    }
+    .testimonial h1 {
+        font-size: 25px;
+    }
+}
+
+
+}
