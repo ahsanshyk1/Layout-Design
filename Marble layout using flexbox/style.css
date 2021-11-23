@@ -1,0 +1,137 @@
+                        * {
+                            padding: 0px;
+                            margin: 0px;
+                        }
+                        
+                        body {
+                            font-family: 'PT Sans';
+                        }
+                        
+                        .container {
+                            max-width: 1170px;
+                            margin: 0 auto;
+                        }
+                        /* LOGO+NAV */
+                        
+                        .nav_logo {
+                            background: #e3e3e3;
+                        }
+                        
+                        #nav_logo {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            height: 123px;
+                        }
+                        
+                        .nav ul li {
+                            display: inline-block;
+                            padding: 0px 10px;
+                            font-weight: 600;
+                        }
+                        
+                        .nav ul li a {
+                            display: block;
+                            text-decoration: none;
+                            color: #676767;
+                        }
+                        /* Banner Image */
+                        
+                        .banner-image img {
+                            width: 100%;
+                        }
+                        
+                        #section {
+                            display: flex;
+                            justify-content: space-between;
+                            text-align: center;
+                        }
+                        
+                        .boxes h3 {
+                            margin: 14px 0px;
+                        }
+                        
+                        .boxes {
+                            padding: 60px 20px;
+                        }
+                        
+                        .section hr {
+                            height: 2px;
+                            background: #dcdcdc;
+                            border: none;
+                            width: 85%;
+                            margin: 20px auto;
+                        }
+                        
+                        #three-boxes {
+                            display: flex;
+                            justify-content: space-between;
+                            margin-bottom: 50px;
+                            margin-top: 20px;
+                        }
+                        
+                        .testi {
+                            background: #efefef;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 180px;
+                            text-align: center;
+                        }
+                        
+                        .testi img {
+                            margin-bottom: 10px;
+                        }
+                        
+                        .footer {
+                            background: #1e1e1e;
+                            height: 430px;
+                        }
+                        
+                        #footer {
+                            display: flex;
+                            justify-content: space-between;
+                        }
+                        
+                        .footer1 h3 {
+                            color: #6c6c6c;
+                            margin-bottom: 15px;
+                            padding-top: 25px;
+                        }
+                        
+                        .footer1 p {
+                            font-size: 15px;
+                            color: #aaaaaa;
+                            margin-bottom: 30px;
+                            line-height: 20px;
+                        }
+                        
+                        .footer1 ul li {
+                            font-size: 15px;
+                            list-style-image: url(./tweet.png);
+                            color: #aaaaaa;
+                            margin-bottom: 30px;
+                        }
+                        
+                        .container hr {
+                            height: 1px;
+                            background: #dcdcdc;
+                            border: none;
+                            width: 85%;
+                            margin: 20px auto;
+                        }
+                        
+                        .footer hr {
+                            height: 1px;
+                            background: #dcdcdc;
+                            border: none;
+                            width: 87%;
+                            margin: 20px auto;
+                        }
+                        
+                        .copyright p {
+                            margin-left: 80px;
+                            margin-top: 50px;
+                            color: #aaaaaa;
+                            letter-spacing: 1px;
+                        }
